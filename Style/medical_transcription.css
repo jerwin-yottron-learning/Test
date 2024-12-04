@@ -1,0 +1,35 @@
+#medicaltranscription-image-section img{
+    width:100%;
+    height:400px;
+
+}
+
+.text-heading{
+  color:var(--secondarycolor);
+}
+.card-title{
+    color:var(--primarycolor);
+}
+.card-body{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+.card-body:hover{
+    box-shadow: 0 4px 8px var(--primarycolor)
+}
+.medical-transcription{
+    margin-top:100px;
+}
+.why-choose-us{
+    margin-top:100px;
+}
+.section-container{
+    margin-top:80px;
+}
+.contact-call{
+   background-color:rgb(200, 236, 240);
+  
+
+}
+.contact-call-heading{
+    color:var(--secondarycolor);
+}

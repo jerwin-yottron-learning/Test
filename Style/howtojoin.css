@@ -1,0 +1,280 @@
+body{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.howtojoin-top{
+    height:250px;
+    background:rgb(234, 243, 245)
+}
+.howtojoin-top h2{
+    color:var(--secondarycolor);
+    text-align:right;
+    font-family: "Protest Strike", sans-serif;
+    font-weight:600;
+    padding:100px;
+    font-size:50px;
+}
+.start-career-image img {
+    width: 100%;   
+    max-width: 600px; 
+    height: auto; 
+}
+
+@media screen and (max-width: 768px) {
+    .start-career-image img {
+        max-width: 100%;  
+    }
+}
+
+.start-career{
+ 
+    margin-top:50px;
+}       
+.start-career-content{
+    padding:20px;
+}
+
+.start-career-content h2{
+    color:var(--secondarycolor);
+    font-family:700;
+
+}
+.start-career-content p{
+ color: #555;
+ margin-top:40px;
+   
+}
+.start-career-content .btn{
+    margin-top:40px;
+}
+.how-to-do-section h2{
+    color:var(--secondarycolor);
+    font-weight:900px;
+    text-align:center;
+    font-size:60px;
+    margin-top:40px;
+}
+.how-to-do-section{
+    margin-top:100px;
+}
+.how-to-do-image {
+padding: 40px;
+text-align: center; 
+}
+
+.how-to-do-image img {
+max-width: 100%;
+height: auto; 
+border-radius: 100px;
+}
+
+@media (max-width: 568px) {
+.how-to-do-image img {
+    max-width: 90%; 
+    border-radius: 50px;
+}
+.howtojoin-top h2{
+    font-size: 30px;
+}
+.how-to-do-image {
+    padding: 20px;
+}
+}
+.how-to-do-section  .how-to-do-row{
+    margin-top:80px;
+}
+
+/* note */
+
+.animated-container {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.animated {
+background-color: transparent;
+border: 0.5px solid #9fa4a8;
+border-radius: 10px;
+margin: 20px 0;
+padding: 20px;
+position: relative;
+overflow: hidden;
+transition: max-height 0.5s ease; 
+
+}
+
+.animated.active {
+background-color: #fff;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.animated.active::before,
+.animated.active::after {
+
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #2ecc71;
+font-size: 5rem;
+position: absolute;
+opacity: 0.2;
+top: 20px;
+left: 20px;
+z-index: 0;
+}
+
+.animated.active::before {
+color: #3498db;
+top: -10px;
+left: -30px;
+transform: rotateY(180deg);
+}
+
+.animated-title {
+margin: 0 35px 0 0;
+}
+
+.animated-text {
+display: none;
+margin: 30px 0 ;
+}
+
+.animated.active .animated-text {
+display: block;
+}
+
+.animated-toggle {
+background-color: transparent;
+border: 0;
+border-radius: 50%;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+padding: 0;
+position: absolute;
+top: 30px;
+right: 30px;
+height: 30px;
+width: 30px;
+}
+
+.animated-toggle:focus {
+outline: 0;
+}
+/* 2 icon */
+.animated-toggle .bi-dash {  
+display: none;
+}
+
+.animated.active .animated-toggle .bi-dash {
+/* color: #fff; */
+display: block;
+
+} 
+
+.animated.active .animated-toggle .bi-plus {
+display: none;
+}
+
+/* .animated.active .animated-toggle {
+/* background-color:var(--secondarycolor)} */
+
+.bi-plus,.bi-dash{
+font-size:40px;
+}
+.animated:hover {
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.1);
+border-color: var(--primarycolor); 
+}
+.enrollment-section {
+/* padding: 40px; */
+
+background-color: #f8f9fa;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+margin-top:100px;
+}
+.enrollment-section  h1{
+text-align:center;
+color:var(--secondarycolor);
+margin-top:50px;
+font-weight:700;
+}
+.enrollment-section h2{
+color:var(--primarycolor);
+margin-top:30px;
+
+
+}
+.enroll-row{
+margin-top: 80px;
+border:1px solid gray;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+border-radius:8px;
+}
+
+
+.custom-form .form-floating-input {
+    position: relative;
+    margin-bottom: 25px;
+    margin-top:50px;
+}
+
+.custom-form .form-floating-input input,
+.custom-form .form-floating-input select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.custom-form .form-floating-input input:focus,
+.custom-form .form-floating-input select:focus {
+    border-color:var(--primarycolor);
+    box-shadow: 0 0 8px rgba(31, 134, 146, 0.2);
+}
+
+.custom-form .form-floating-input label {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background-color: #f8f9fa;
+    padding: 0 5px;
+}
+
+.custom-form .form-floating-input input:focus + label,
+.custom-form .form-floating-input input:not(:placeholder-shown) + label,
+.custom-form .form-floating-input select:focus + label,
+.custom-form .form-floating-input select:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size:18px;
+    color:var(--primarycolor);
+    border-radius: 3px;
+    padding: 0 5px;
+
+}
+
+.img-fluid {
+max-width: 100%;
+min-height:500px;
+
+
+
+}
+.enrollment-section .enroll-form-box{
+padding:50px;
+}
+.enroll-form-box form{
+margin-top:70px;
+}
+.enroll-image-box{
+padding:70px 20px;
+}

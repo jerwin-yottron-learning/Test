@@ -1,0 +1,114 @@
+.contact-form-section {
+
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    max-width: 1200px;
+  
+    margin: auto;
+}
+.contact-image-section{
+   margin-top:0px; 
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    max-height:450px;
+    height: auto;
+   
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.custom-form .form-floating-input {
+    position: relative;
+    margin-bottom: 25px;
+    margin-top:50px;
+}
+
+.custom-form .form-floating-input input,
+.custom-form .form-floating-input textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.custom-form .form-floating-input input:focus,
+.custom-form .form-floating-input textarea:focus {
+    border-color:var(--secondarycolor);
+    box-shadow: 0 0 8px rgba(31, 134, 146, 0.2);
+}
+
+.custom-form .form-floating-input label {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.custom-form .form-floating-input input:focus + label,
+.custom-form .form-floating-input input:not(:placeholder-shown) + label,
+.custom-form .form-floating-input textarea:focus + label,
+.custom-form .form-floating-input textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size:18px;
+    color: #1F8692ff;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .col-lg-6, .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-form-section{
+        padding:0px;
+
+    }
+    
+}
+
+.text-call1{
+    color:var(--secondarycolor);
+}
+.text-call2{
+    color: var(--primarycolor);
+}
+.text-center{
+    color:var(--secondarycolor);
+    font-weight:700;
+}
